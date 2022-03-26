@@ -3,6 +3,27 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ucenter-api" />
+        <module name="otc-core" />
+        <module name="wallet" />
+        <module name="otc-api" />
+        <module name="admin" />
+        <module name="margin-core" />
+        <module name="open-api" />
+        <module name="market" />
+        <module name="cloud" />
+        <module name="core" />
+        <module name="exchange-api" />
+        <module name="chat" />
+        <module name="exchange-core" />
+        <module name="exchange" />
+        <module name="vote" />
+        <module name="netty" />
+      </profile>
     </annotationProcessing>
   </component>
 </project>
